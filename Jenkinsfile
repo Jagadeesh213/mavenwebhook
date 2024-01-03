@@ -1,4 +1,4 @@
-e#!groovy
+//e#!groovy
 
 node {
   stage ('Checkout') {
