@@ -12,9 +12,9 @@ node {
   //stage('Run Cake') {
   //powershell -File build.ps1 -projectName="demo" -branchName=${env.GIT_BRANCH} -octoServer=${env.octoServer} -octoApiKey=${env.octoApiKey}
   //}
-  stage('Build app') {
-    steps {
+  //stage('Build app') {
+  //  steps {
     //sh 'mvn clean install package'
-      }
-   }
+  //    }
+  // }
 }
