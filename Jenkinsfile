@@ -12,5 +12,5 @@ node {
 
   //stage('Run Cake') {
   //powershell -File build.ps1 -projectName="demo" -branchName=${env.GIT_BRANCH} -octoServer=${env.octoServer} -octoApiKey=${env.octoApiKey}
-  }
+  //}
 }
